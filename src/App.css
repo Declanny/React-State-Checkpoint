@@ -1,0 +1,26 @@
+html, body {
+  height: 100%; /* Ensure the HTML and body take up the full height of the viewport */
+  margin: 0; /* Remove default margin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua; /* Optional background color for the entire page */
+}
+
+.App {
+  text-align: center;
+  color: rgb(1, 1, 19);
+  padding: 50px;
+}
+
+.profile {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
